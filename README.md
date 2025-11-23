@@ -2,12 +2,12 @@
 <p align="center">
   <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en"><img src="https://img.shields.io/badge/license-CC--BY--NC%204.0-lightgrey"/></a>
   <a href="https://arxiv.org/">
-  <img alt="Documentation" src="https://img.shields.io/badge/arXiv-2507.02554-b31b1b.svg">
+  <img alt="Documentation" src="https://img.shields.io/badge/arXiv-0000.00000-b31b1b.svg">
   </a>
 </p>
 
-Code, saved outputs, and figure-generation utilities for the manuscript on
-"Predicting future alcohol use from baseline brain connectomes"
+Code, saved outputs, and figure-generation utilities for the manuscript:
+***Predicting future alcohol use from baseline brain connectomes***
 - June 2024 - Present
 - Manuscript in progress
 
