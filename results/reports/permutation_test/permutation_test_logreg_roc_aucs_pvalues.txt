@@ -1,0 +1,35 @@
+Permutation test (p-values) for logistic regression models
+Metric: roc_aucs
+Alpha: 0.05
+
+Control Only P-Values
+SC: 0.0
+FC: 0.0
+FCgsr: 0.06 - Fail to reject
+Demos: 0.0
+Ensemble: 0.0
+Simple Ensemble: 0.0
+
+Control Moderate P-Values
+SC: 0.0
+FC: 0.09 - Fail to reject
+FCgsr: 0.09 - Fail to reject
+Demos: 0.0
+Ensemble: 0.0
+Simple Ensemble: 0.0
+
+Control Moderate (Male Only) P-Values
+SC: 0.0
+FC: 0.6 - Fail to reject
+FCgsr: 0.62 - Fail to reject
+Demos: 0.0
+Ensemble: 0.08 - Fail to reject
+Simple Ensemble: 0.06 - Fail to reject
+
+Control Moderate (Female Only) P-Values
+SC: 0.02
+FC: 0.0
+FCgsr: 0.01
+Demos: 0.0
+Ensemble: 0.01
+Simple Ensemble: 0.0

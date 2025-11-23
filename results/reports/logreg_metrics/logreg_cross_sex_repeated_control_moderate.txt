@@ -1,0 +1,118 @@
+Results for cross-sex testing (Fold-based approach):
+
+Number of Repeats: 100
+Number of Folds per Repeat: 5
+Total number of tests: 500
+Baseline subjects with cahalan=='control' or cahalan=='moderate'
+
+==================================================
+MALE TO FEMALE (Train on males, test on females)
+==================================================
+
+Individual Models:
+SC:
+  Mean accuracy: 0.5377 ± 0.0121
+  Median accuracy: 0.5373
+  Mean balanced accuracy: 0.5251 ± 0.0134
+  Median balanced accuracy: 0.5244
+  Mean ROC AUC: 0.6062 ± 0.0032
+  Median ROC AUC: 0.6062
+  Mean PR AUC: 0.5891 ± 0.0030
+  Median PR AUC: 0.5891
+
+FC:
+  Mean accuracy: 0.5150 ± 0.0018
+  Median accuracy: 0.5148
+  Mean balanced accuracy: 0.5006 ± 0.0020
+  Median balanced accuracy: 0.5003
+  Mean ROC AUC: 0.5019 ± 0.0017
+  Median ROC AUC: 0.5020
+  Mean PR AUC: 0.5125 ± 0.0015
+  Median PR AUC: 0.5123
+
+Demographics:
+  Mean accuracy: 0.5607 ± 0.0123
+  Median accuracy: 0.5618
+  Mean balanced accuracy: 0.5491 ± 0.0132
+  Median balanced accuracy: 0.5502
+  Mean ROC AUC: 0.6422 ± 0.0015
+  Median ROC AUC: 0.6423
+  Mean PR AUC: 0.6514 ± 0.0021
+  Median PR AUC: 0.6513
+
+Ensemble Models:
+Ensemble:
+  Mean accuracy: 0.5291 ± 0.0117
+  Median accuracy: 0.5275
+  Mean balanced accuracy: 0.5154 ± 0.0127
+  Median balanced accuracy: 0.5138
+  Mean ROC AUC: 0.6117 ± 0.0267
+  Median ROC AUC: 0.6135
+  Mean PR AUC: 0.6115 ± 0.0237
+  Median PR AUC: 0.6137
+
+Simple Ensemble:
+  Mean accuracy: 0.5294 ± 0.0089
+  Median accuracy: 0.5290
+  Mean balanced accuracy: 0.5155 ± 0.0095
+  Median balanced accuracy: 0.5148
+  Mean ROC AUC: 0.6242 ± 0.0177
+  Median ROC AUC: 0.6240
+  Mean PR AUC: 0.6209 ± 0.0154
+  Median PR AUC: 0.6220
+
+==================================================
+FEMALE TO MALE (Train on females, test on males)
+==================================================
+
+Individual Models:
+SC:
+  Mean accuracy: 0.6227 ± 0.0087
+  Median accuracy: 0.6232
+  Mean balanced accuracy: 0.5855 ± 0.0084
+  Median balanced accuracy: 0.5852
+  Mean ROC AUC: 0.6265 ± 0.0033
+  Median ROC AUC: 0.6268
+  Mean PR AUC: 0.7272 ± 0.0032
+  Median PR AUC: 0.7278
+
+FC:
+  Mean accuracy: 0.5056 ± 0.0077
+  Median accuracy: 0.5054
+  Mean balanced accuracy: 0.4960 ± 0.0068
+  Median balanced accuracy: 0.4954
+  Mean ROC AUC: 0.4907 ± 0.0032
+  Median ROC AUC: 0.4910
+  Mean PR AUC: 0.6378 ± 0.0030
+  Median PR AUC: 0.6378
+
+Demographics:
+  Mean accuracy: 0.6193 ± 0.0072
+  Median accuracy: 0.6203
+  Mean balanced accuracy: 0.5896 ± 0.0047
+  Median balanced accuracy: 0.5904
+  Mean ROC AUC: 0.6316 ± 0.0015
+  Median ROC AUC: 0.6318
+  Mean PR AUC: 0.7494 ± 0.0013
+  Median PR AUC: 0.7496
+
+Ensemble Models:
+Ensemble:
+  Mean accuracy: 0.6083 ± 0.0179
+  Median accuracy: 0.6095
+  Mean balanced accuracy: 0.5708 ± 0.0171
+  Median balanced accuracy: 0.5710
+  Mean ROC AUC: 0.6117 ± 0.0190
+  Median ROC AUC: 0.6124
+  Mean PR AUC: 0.7258 ± 0.0141
+  Median PR AUC: 0.7263
+
+Simple Ensemble:
+  Mean accuracy: 0.5936 ± 0.0206
+  Median accuracy: 0.5956
+  Mean balanced accuracy: 0.5679 ± 0.0177
+  Median balanced accuracy: 0.5685
+  Mean ROC AUC: 0.5971 ± 0.0173
+  Median ROC AUC: 0.5967
+  Mean PR AUC: 0.7088 ± 0.0118
+  Median PR AUC: 0.7072

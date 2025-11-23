@@ -1,0 +1,35 @@
+Permutation test (p-values) for logistic regression models
+Metric: balanced_accuracies
+Alpha: 0.05
+
+Control Only P-Values
+SC: 0.0
+FC: 0.03
+FCgsr: 0.08 - Fail to reject
+Demos: 0.0
+Ensemble: 0.0
+Simple Ensemble: 0.0
+
+Control Moderate P-Values
+SC: 0.0
+FC: 0.02
+FCgsr: 0.26
+Demos: 0.0
+Ensemble: 0.0
+Simple Ensemble: 0.0
+
+Control Moderate (Male Only) P-Values
+SC: 0.35 - Fail to reject
+FC: 0.17 - Fail to reject
+FCgsr: 0.38 - Fail to reject
+Demos: 0.06 - Fail to reject
+Ensemble: 0.22 - Fail to reject
+Simple Ensemble: 0.36 - Fail to reject
+
+Control Moderate (Female Only) P-Values
+SC: 0.04
+FC: 0.0
+FCgsr: 0.11 - Fail to reject
+Demos: 0.0
+Ensemble: 0.07 - Fail to reject
+Simple Ensemble: 0.0

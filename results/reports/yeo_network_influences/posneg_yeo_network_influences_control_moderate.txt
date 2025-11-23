@@ -1,0 +1,48 @@
+Network Influences
+
+Baseline subjects with cahalan=='control' or cahalan=='moderate'
+All subjects
+
+Networks: {1: 'Visual (Vis)', 2: 'Somatomotor (SomMot)', 3: 'Dorsal Attention (DorsAttn)', 4: 'Ventral Attention (SalVentAttn)', 5: 'Limbic (Limbic)', 6: 'Frontoparietal Control (Cont)', 7: 'Default Networks (Default)', 8: 'Subcortex', 9: 'Cerebellum'}
+Combined Influences:
+SC: {1: 0.351, 2: 1.483, 3: 2.086, 4: 3.238, 5: 1.241, 6: 1.767, 7: 1.69, 8: 2.009}
+FC: {1: 0.772, 2: -0.824, 3: 0.289, 4: 0.632, 5: -1.705, 6: -1.368, 7: -2.661, 8: -2.442, 9: -1.717}
+FCgsr: {1: 0.926, 2: 0.514, 3: 0.094, 4: 0.189, 5: -0.281, 6: -0.635, 7: -0.523, 8: 0.163, 9: 0.651}
+
+Positive Influences:
+SC: {1: 2.544, 2: 3.886, 3: 4.162, 4: 5.056, 5: 2.329, 6: 3.311, 7: 3.453, 8: 4.154}
+FC: {1: 2.026, 2: 1.35, 3: 1.312, 4: 2.215, 5: 0.833, 6: 0.875, 7: 0.781, 8: 0.826, 9: 0.566}
+FCgsr: {1: 2.036, 2: 1.934, 3: 1.226, 4: 1.666, 5: 1.116, 6: 0.927, 7: 1.206, 8: 1.673, 9: 1.511}
+
+Negative Influences:
+SC: {1: -2.193, 2: -2.403, 3: -2.076, 4: -1.818, 5: -1.088, 6: -1.544, 7: -1.763, 8: -2.145}
+FC: {1: -1.254, 2: -2.175, 3: -1.023, 4: -1.583, 5: -2.537, 6: -2.243, 7: -3.441, 8: -3.268, 9: -2.283}
+FCgsr: {1: -1.11, 2: -1.42, 3: -1.132, 4: -1.477, 5: -1.397, 6: -1.562, 7: -1.729, 8: -1.511, 9: -0.86}
+
+
+
+
+
+Different view:
+
+SC, SC (Pos), SC (Neg), FC, FC (Pos), FC (Neg), FCgsr, FCgsr (Pos), FCgsr (Neg)
+Network 1: 0.351, 2.544, -2.193, 0.772, 2.026, -1.254, 0.926, 2.036, -1.11
+Network 2: 1.483, 3.886, -2.403, -0.824, 1.35, -2.175, 0.514, 1.934, -1.42
+Network 3: 2.086, 4.162, -2.076, 0.289, 1.312, -1.023, 0.094, 1.226, -1.132
+Network 4: 3.238, 5.056, -1.818, 0.632, 2.215, -1.583, 0.189, 1.666, -1.477
+Network 5: 1.241, 2.329, -1.088, -1.705, 0.833, -2.537, -0.281, 1.116, -1.397
+Network 6: 1.767, 3.311, -1.544, -1.368, 0.875, -2.243, -0.635, 0.927, -1.562
+Network 7: 1.69, 3.453, -1.763, -2.661, 0.781, -3.441, -0.523, 1.206, -1.729
+Network 8: 2.009, 4.154, -2.145, -2.442, 0.826, -3.268, 0.163, 1.673, -1.511
+Network 9: N/A, N/A, N/A, -1.717, 0.566, -2.283, 1.511, 1.511, -0.86
+
+Networks: 1-7 = Yeo7 Networks, 8 = Subcortex, 9 = Cerebellum
+Network 1: Visual (Vis)
+Network 2: Somatomotor (SomMot)
+Network 3: Dorsal Attention (DorsAttn)
+Network 4: Ventral Attention (SalVentAttn)
+Network 5: Limbic (Limbic)
+Network 6: Frontoparietal Control (Cont)
+Network 7: Default Networks (Default)
+Network 8: Subcortex
+Network 9: Cerebellum

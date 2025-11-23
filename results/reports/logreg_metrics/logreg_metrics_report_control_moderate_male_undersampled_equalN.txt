@@ -1,0 +1,92 @@
+Results for logistic regression on matrices and ensemble:
+
+Number of Splits: 5
+Number of Repeats: 100
+
+Baseline subjects with cahalan=='control' or cahalan=='moderate'
+Male subjects only
+Using undersampling to achieve class balance
+
+Shape of matrices:
+
+SC: (500, 4005)
+FC: (500, 5886)
+Demographics: (500, 12)
+
+Median metrics:
+
+SC Median accuracy: 0.5470430750488404
+FC Median accuracy: 0.49757660871466836
+Demographics Median accuracy: 0.5497455475382425
+Ensemble Median accuracy: 0.5064256264852058
+Simple Ensemble Median accuracy: 0.5338496153307362
+
+SC Median balanced accuracy: 0.5456709539894289
+FC Median balanced accuracy: 0.4950380638796019
+Demographics Median balanced accuracy: 0.5543329894087903
+Ensemble Median balanced accuracy: 0.4966228157590931
+Simple Ensemble Median balanced accuracy: 0.5281166793597933
+
+SC Median ROC AUC: 0.5611040518463565
+FC Median ROC AUC: 0.49603116700862787
+Demographics Median ROC AUC: 0.5928286248376088
+Ensemble Median ROC AUC: 0.5058840094984108
+Simple Ensemble Median ROC AUC: 0.5422253209256983
+
+SC Median PR AUC: 0.692627100665717
+FC Median PR AUC: 0.656929810163001
+Demographics Median PR AUC: 0.7310277411871944
+Ensemble Median PR AUC: 0.6622176003865798
+Simple Ensemble Median PR AUC: 0.6856537334876908
+
+Mean metrics:
+
+SC:
+Mean accuracy: 0.5461432073154142
+Std accuracy: 0.020391776470783177
+Mean balanced accuracy: 0.5460286566649478
+Std balanced accuracy: 0.02230502908451781
+Mean ROC AUC: 0.5610003988597001
+Std ROC AUC: 0.02288226930013345
+Mean PR AUC: 0.6920491403159532
+Std PR AUC: 0.01768111733480193
+
+FC:
+Mean accuracy: 0.4975035034262648
+Std accuracy: 0.023017547184232788
+Mean balanced accuracy: 0.49479811566021775
+Std balanced accuracy: 0.024057910238343597
+Mean ROC AUC: 0.4980947330068293
+Std ROC AUC: 0.023694964341109365
+Mean PR AUC: 0.6566195448998378
+Std PR AUC: 0.01791314840947981
+
+Demographics:
+Mean accuracy: 0.5482339117458863
+Std accuracy: 0.02028051028734146
+Mean balanced accuracy: 0.5520535633317152
+Std balanced accuracy: 0.02091381424842266
+Mean ROC AUC: 0.5912001935718125
+Std ROC AUC: 0.01898382569508455
+Mean PR AUC: 0.7320017944246153
+Std PR AUC: 0.011820251818783309
+
+Ensemble:
+Mean accuracy: 0.5025456766239286
+Std accuracy: 0.03658699844181037
+Mean balanced accuracy: 0.49671304186912857
+Std balanced accuracy: 0.03077696026895427
+Mean ROC AUC: 0.5050357832488944
+Std ROC AUC: 0.03554546274373808
+Mean PR AUC: 0.6612137330358052
+Std PR AUC: 0.026496753049923192
+
+Simple Ensemble:
+Mean accuracy: 0.5310556455745054
+Std accuracy: 0.022653334049533718
+Mean balanced accuracy: 0.5279290278960711
+Std balanced accuracy: 0.024219672083606123
+Mean ROC AUC: 0.5453525288453516
+Std ROC AUC: 0.02564359704478323
+Mean PR AUC: 0.6844937913164023
+Std PR AUC: 0.019545321455529414

@@ -1,0 +1,186 @@
+Cross-Sex Model Comparison Results with Multiple Testing Corrections
+===================================================================
+
+
+Two-sided Tests
+===============
+
+Metric       | Model A                | Model B                         | Raw p-value     | FDR p-value     | Bonferroni p-value
+----------------------------------------------------------------------------------------------------
+Balanced Acc | SC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+ROC AUC      | SC (Male)              | SC (Female)                     | 0.1143          | 0.1219          | 1.0000         
+ROC AUC      | SC (Male)              | FC (Female)                     | 0.7014          | 0.7014          | 1.0000         
+ROC AUC      | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | ensemble (Female)               | 0.0400*         | 0.0457*         | 0.6400         
+ROC AUC      | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+PR AUC       | SC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+
+A > B Tests
+===========
+
+Metric       | Model A                | Model B                         | Raw p-value     | FDR p-value     | Bonferroni p-value
+----------------------------------------------------------------------------------------------------
+Balanced Acc | SC (Male)              | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | SC (Male)              | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | SC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | SC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | FC (Male)              | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | FC (Male)              | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | FC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | FC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | demos (Male)           | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | demos (Male)           | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | demos (Male)           | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | demos (Male)           | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | ensemble (Male)        | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | ensemble (Male)        | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | ensemble (Male)        | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+Balanced Acc | ensemble (Male)        | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+----------------------------------------------------------------------------------------------------
+ROC AUC      | SC (Male)              | SC (Female)                     | 0.0569          | 0.3035          | 0.9104         
+ROC AUC      | SC (Male)              | FC (Female)                     | 0.6438          | 1.0000          | 1.0000         
+ROC AUC      | SC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | SC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | FC (Male)              | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | FC (Male)              | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | FC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | FC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | demos (Male)           | ensemble (Female)               | 0.9807          | 1.0000          | 1.0000         
+ROC AUC      | ensemble (Male)        | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | ensemble (Male)        | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | ensemble (Male)        | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | ensemble (Male)        | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+----------------------------------------------------------------------------------------------------
+PR AUC       | SC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | demos (Male)           | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+
+A < B Tests
+===========
+
+Metric       | Model A                | Model B                         | Raw p-value     | FDR p-value     | Bonferroni p-value
+----------------------------------------------------------------------------------------------------
+Balanced Acc | SC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | demos (Male)           | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+Balanced Acc | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+ROC AUC      | SC (Male)              | SC (Female)                     | 0.9402          | 1.0000          | 1.0000         
+ROC AUC      | SC (Male)              | FC (Female)                     | 0.3601          | 0.4432          | 1.0000         
+ROC AUC      | SC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | SC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | FC (Male)              | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | demos (Male)           | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+ROC AUC      | demos (Male)           | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | demos (Male)           | ensemble (Female)               | 0.0194*         | 0.0259*         | 0.3104         
+ROC AUC      | ensemble (Male)        | SC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | FC (Female)                     | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+ROC AUC      | ensemble (Male)        | ensemble (Female)               | 0.0000*         | 0.0000*         | 0.0000*        
+----------------------------------------------------------------------------------------------------
+PR AUC       | SC (Male)              | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | SC (Male)              | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | SC (Male)              | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | SC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | FC (Male)              | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | FC (Male)              | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | FC (Male)              | demos (Female)                  | 0.0000*         | 0.0000*         | 0.0000*        
+PR AUC       | FC (Male)              | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | demos (Male)           | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | demos (Male)           | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | demos (Male)           | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | demos (Male)           | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | ensemble (Male)        | SC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | ensemble (Male)        | FC (Female)                     | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | ensemble (Male)        | demos (Female)                  | 1.0000          | 1.0000          | 1.0000         
+PR AUC       | ensemble (Male)        | ensemble (Female)               | 1.0000          | 1.0000          | 1.0000         
+----------------------------------------------------------------------------------------------------
+
+* p < 0.05 (statistically significant)
+
+Test Interpretation:
+- Two-sided: any difference between Model A and Model B
+- A > B: Model A > Model B
+- A < B: Model A < Model B
+
+Multiple Testing Corrections:
+- Raw p-value: uncorrected
+- FDR p-value: Benjamini–Hochberg
+- Bonferroni p-value: Bonferroni

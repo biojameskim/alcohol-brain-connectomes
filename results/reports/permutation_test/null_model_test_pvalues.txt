@@ -1,0 +1,72 @@
+Permutation Test Results with FDR Correction
+=========================================
+
+Metric     | Group      | Model           | Raw p-value      | FDR p-value 
+----------------------------------------------------------------------
+Balanced Acc | combined   | SC              | 0.00000000 *** | 0.00000000 ***
+Balanced Acc | combined   | FC              | 0.09000000     | 0.15677419
+Balanced Acc | combined   | FCgsr           | 0.27000000     | 0.30375000
+Balanced Acc | combined   | demos           | 0.00000000 *** | 0.00000000 ***
+Balanced Acc | combined   | ensemble        | 0.00000000 *** | 0.00000000 ***
+Balanced Acc | combined   | simple_ensemble | 0.00000000 *** | 0.00000000 ***
+Balanced Acc | male       | SC              | 0.14000000     | 0.19894737
+Balanced Acc | male       | FC              | 0.14000000     | 0.19894737
+Balanced Acc | male       | FCgsr           | 0.58000000     | 0.60113208
+Balanced Acc | male       | demos           | 0.04000000 *   | 0.08307692
+Balanced Acc | male       | ensemble        | 0.17000000     | 0.22390244
+Balanced Acc | male       | simple_ensemble | 0.06000000     | 0.11172414
+Balanced Acc | female     | SC              | 0.12000000     | 0.19058824
+Balanced Acc | female     | FC              | 0.05000000     | 0.10000000
+Balanced Acc | female     | FCgsr           | 0.17000000     | 0.22390244
+Balanced Acc | female     | demos           | 0.00000000 *** | 0.00000000 ***
+Balanced Acc | female     | ensemble        | 0.01000000 *   | 0.02700000 *
+Balanced Acc | female     | simple_ensemble | 0.01000000 *   | 0.02700000 *
+
+ROC AUC    | combined   | SC              | 0.00000000 ***   | 0.00000000 ***
+ROC AUC    | combined   | FC              | 0.22000000       | 0.26400000
+ROC AUC    | combined   | FCgsr           | 0.22000000       | 0.26400000
+ROC AUC    | combined   | demos           | 0.00000000 ***   | 0.00000000 ***
+ROC AUC    | combined   | ensemble        | 0.00000000 ***   | 0.00000000 ***
+ROC AUC    | combined   | simple_ensemble | 0.00000000 ***   | 0.00000000 ***
+ROC AUC    | male       | SC              | 0.06000000       | 0.11172414
+ROC AUC    | male       | FC              | 0.58000000       | 0.60113208
+ROC AUC    | male       | FCgsr           | 0.62000000       | 0.62000000
+ROC AUC    | male       | demos           | 0.02000000 *     | 0.04320000 *
+ROC AUC    | male       | ensemble        | 0.23000000       | 0.27000000
+ROC AUC    | male       | simple_ensemble | 0.14000000       | 0.19894737
+ROC AUC    | female     | SC              | 0.13000000       | 0.19894737
+ROC AUC    | female     | FC              | 0.02000000 *     | 0.04320000 *
+ROC AUC    | female     | FCgsr           | 0.10000000       | 0.16363636
+ROC AUC    | female     | demos           | 0.00000000 ***   | 0.00000000 ***
+ROC AUC    | female     | ensemble        | 0.02000000 *     | 0.04320000 *
+ROC AUC    | female     | simple_ensemble | 0.01000000 *     | 0.02700000 *
+
+PR AUC     | combined   | SC              | 0.00000000 ***   | 0.00000000 ***
+PR AUC     | combined   | FC              | 0.25000000       | 0.28723404
+PR AUC     | combined   | FCgsr           | 0.31000000       | 0.34163265
+PR AUC     | combined   | demos           | 0.00000000 ***   | 0.00000000 ***
+PR AUC     | combined   | ensemble        | 0.00000000 ***   | 0.00000000 ***
+PR AUC     | combined   | simple_ensemble | 0.00000000 ***   | 0.00000000 ***
+PR AUC     | male       | SC              | 0.10000000       | 0.16363636
+PR AUC     | male       | FC              | 0.58000000       | 0.60113208
+PR AUC     | male       | FCgsr           | 0.59000000       | 0.60113208
+PR AUC     | male       | demos           | 0.01000000 *     | 0.02700000 *
+PR AUC     | male       | ensemble        | 0.22000000       | 0.26400000
+PR AUC     | male       | simple_ensemble | 0.15000000       | 0.20769231
+PR AUC     | female     | SC              | 0.18000000       | 0.23142857
+PR AUC     | female     | FC              | 0.02000000 *     | 0.04320000 *
+PR AUC     | female     | FCgsr           | 0.08000000       | 0.14400000
+PR AUC     | female     | demos           | 0.00000000 ***   | 0.00000000 ***
+PR AUC     | female     | ensemble        | 0.02000000 *     | 0.04320000 *
+PR AUC     | female     | simple_ensemble | 0.00000000 ***   | 0.00000000 ***
+
+
+Significance levels:
+* p < 0.05
+** p < 0.01
+*** p < 0.001
+
+Note on multiple testing corrections:
+- Raw p-value: Original uncorrected p-value
+- FDR p-value: Benjamini-Hochberg False Discovery Rate corrected p-value
+  Controls the expected proportion of false positives among all rejected nulls
